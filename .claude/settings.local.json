@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:ai.pydantic.dev)",
+      "WebFetch(domain:brave.com)",
+      "Bash(mkdir:*)",
+      "Bash(uv sync:*)",
+      "Bash(python3:*)",
+      "Bash(source:*)",
+      "Bash(pip install:*)",
+      "Bash(ruff format:*)",
+      "Bash(ruff check:*)",
+      "Bash(mypy:*)",
+      "Bash(python:*)"
+    ]
+  }
+}
